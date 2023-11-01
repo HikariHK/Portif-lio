@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(/imgs/fruits.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.table{
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.233);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    border: 0px;
+    box-shadow: 4px 5px 13px 0px black;
+}
+
+table{
+    border: 0px;
+    border-color: #5c90e4;
+    border-collapse: separate;
+    border-style: solid;
+}
+
+thead, tbody, tfoot{
+    border-style: none;
+}
+
+.table-title{
+    font-size: 190%;
+    color: #335c7e;
+    background-color: #fff;
+}
+
+
+thead .table-title th{
+    border-radius: 10px;
+    padding: 15px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+tbody{
+    font-family: sans-serif;
+}
+
+.table-list{
+    text-align: center;
+    font-size: 120%;
+    border-collapse: collapse;
+    background-color: #d6deee;
+}
+.table-list td{
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.table-element {
+    padding-right: 8px; /* Ajuste o valor de acordo com o espaçamento desejado */
+}
+
+.table-item{
+    padding-left: 8px;
+    border: 0px;
+    border-radius: 50px;
+    text-align: left;
+}
+
+.table-list-white, .table-list-white .table-element{
+    background: #ffffff;
+    border: 0px;
+}
+
+.table-list-blue, .table-list-blue .table-element{
+    background: #d6deee;
+    border: 0px;
+}
+
+.table-element{
+    border-radius: 50px;
+    text-align: right;
+}
+
+tfoot tr td{
+    background: #ffffff;
+    border-radius: 50px;
+    padding-left: 8px;
+    font-family: sans-serif;
+}
