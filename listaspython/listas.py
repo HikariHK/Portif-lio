@@ -9,7 +9,7 @@ Caso o número seja positivo faça:
 - verifique se o número está entre 10 e 30. Se sim, adicione esse número na listaA
 - verifique se o número está entre 50 e 70. Se sim, adicione esse número na listaB
 - verifique se o número está entre 20 e 60. Se sim, adicione esse número na listaC
-- quando alguma das listas estiver com 5 elementos, apague todos os elementos desta lista.
+- quando alguma das listas estiver com 5 elementos, apague todos os elementos desta lista...
 """
 
 ListaA = [] # Variável da ListaA
